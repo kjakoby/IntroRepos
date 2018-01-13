@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Contact Me</title>
+        <link href="css.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <h1>Contact Me</h1>
@@ -11,11 +12,11 @@
         <h2>Information Request</h2>
         <form action="submit.htnml" method="POST">
             <label for="firstName">First Name:</label><br />
-            <input type="text" id="firstName" name="firstName"><br />
+            <input type="text" id="firstName" name="firstName" required><br />
             <label for="lastName">Last Name:</label><br />
-            <input type="text" id="lastName" name="lastName"><br />
+            <input type="text" id="lastName" name="lastName" required><br />
             <label for="phone">Phone Number:</label><br />
-            <input type="text"id="phone" name="phone"><br />
+            <input type="text"id="phone" name="phone" required><br />
             <label for="contact">Best time to call:</label><br />
             <select id="contact" name="contact">
                 <option value="default" selected>--Select One--</option>
