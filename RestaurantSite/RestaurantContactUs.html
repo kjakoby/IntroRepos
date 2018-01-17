@@ -1,11 +1,16 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Home Page</title>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="restaurantstyles.css" />
     <style>
         label {
-            width:10px; 
+            width:200px; 
             margin-right:5px;     
         }
         div {
@@ -18,10 +23,14 @@
         <h1>BFAST 24/7</h1>
         <hr/>
         <br/>
-        &nbsp;&nbsp; 
-            <a href="restauranthome.html" padding="10px">Home</a>&nbsp;&nbsp;&nbsp;
-            <a href="restaurantMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;
-            <a href="restaurantContactUs.html">Contact Us</a>
+        &nbsp;&nbsp;
+        <div class="container">
+                <ul class="nav nav-tabs">
+                  <li><a href="restauranthome.html" padding="10px"><span class="glyphicon glyphicon-home"></a>&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="restaurantMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;</li>
+                  <li class="active"><a href="restaurantContactUs.html">Contact Us</a></li>
+                </ul>
+        </div>
         <br/>
         <br/>
         <hr/>
@@ -30,7 +39,7 @@
             <form action="restaurantContactUs.html" method="post"></form>
             
             <div>
-                <label id="Name" for="Name">Name: </label>&nbsp;&nbsp;&nbsp;    
+                <label id="Name" for="Name">Name: </label>&nbsp;&nbsp;&nbsp;   
                 <input type="text" name="Name" id="Name">
             </div>
             <div>
